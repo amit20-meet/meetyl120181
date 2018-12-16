@@ -16,6 +16,20 @@ w = animal("scream", "wolf", 5, "white", "rabit")
 '''
 
 
-class song(object):
-	def __init__()
-		
+import turtle
+turtle.register_shape("trash.gif")
+turtle.shape("trash.gif")
+asd = 1
+turtle.speed(100000)
+for i in range(720):
+	asd = asd + 0.5
+	turtle.pendown()
+	turtle.right(asd)
+	turtle.forward(340)
+	turtle.right(45)
+	turtle.forward(150)
+	turtle.right(90)
+	turtle.forward(50)
+	turtle.penup()
+	turtle.home()
+turtle.mainoop()
