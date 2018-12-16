@@ -1,5 +1,5 @@
 
-'''
+
 
 import tkinter as tk
 from tkinter import simpledialog
@@ -12,7 +12,7 @@ elif greeting in ["Arrr!"]:
 
 
 meinloop()
-'''
+
 
 
 # A time traveler has suddenly appeared in your classroom!
@@ -22,7 +22,7 @@ meinloop()
 # and greet our strange visitor with a different message
 # if he is from the distant past (before 1900),
 # the present era (1900-2020) or from the far future (beyond 2020).
-'''
+
 import tkinter as tk
 from tkinter import simpledialog
 
@@ -37,7 +37,7 @@ elif:
 
 
 mainloop()
-'''
+
 
 
 # Write a simple class that defines a person
@@ -45,7 +45,7 @@ mainloop()
 # and has a method signature of "speak" which
 # prints the object as "Jefferson, Thomas".
 
-'''
+
 
 class Person:
   def __initalize__(self, first_name, last_name):
@@ -59,8 +59,8 @@ you = Person("Ethan", "Reed")
 
 me.speak()
 you.self.speak
-'''
-'''
+
+
 import tkinter as tk
 from tkinter import simpledialog
 # Calculating Grades (ok, let me think about this one)
@@ -145,7 +145,7 @@ a.print_info()
 b = Person("Jake","Chocolate", 15)
 b.define_color("Black")
 b.print_info()
-'''
+
 
 class Bear():
     def __init__(self, name):
