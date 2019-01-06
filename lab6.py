@@ -14,13 +14,13 @@ class Rectangle(Turtle):
 		self.color([r,r1,r2])
 
 
-# rect = Rectangle(75,100)
-# rect.random_color();
+rect = Rectangle(75,100)
+rect.random_color();
 class Square(Rectangle):
 	def __init__ (self):
 		Rectangle.__init__(self,50,50)
 	
-'''Square = Square()
+Square()
 Square.random_color()
 
  class Hexagon(Turtle):
@@ -35,7 +35,7 @@ Square.random_color()
 		self.color([r,r1,r2])
 
  H = Hexagon(20)
-H.random_color()'''
+H.random_color()
 
 turtle.mainloop()
 
