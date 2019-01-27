@@ -15,8 +15,8 @@ RIGHT = 3
 turtle.setheading(90)
 RUNNING = True
 sleep = 0.0099
-SCREEN_WIDTH = turtle.getcanvas().winfo_width()/2
-SCREEN_HEIGHT =turtle.getcanvas().winfo_height()/2
+SCREEN_WIDTH = turtle.getcanvas().winfo_width()//2
+SCREEN_HEIGHT =turtle.getcanvas().winfo_height()//2
 turtle.tracer(0,0)
 score = 0
 
@@ -229,9 +229,9 @@ def check_me_collision():
 	
 
 while RUNNING == True:
-	if SCREEN_WIDTH!=turtle.getcanvas().winfo_width()/2 or SCREEN_HEIGHT!=turtle.getcanvas().winfo_height()/2 :
-		SCREEN_WIDTH=turtle.getcanvas().winfo_width()/2 
-		SCREEN_HEIGHT=turtle.getcanvas().winfo_height()/2
+	if SCREEN_WIDTH!=turtle.getcanvas().winfo_width()//2 or SCREEN_HEIGHT!=turtle.getcanvas().winfo_height()//2 :
+		SCREEN_WIDTH=turtle.getcanvas().winfo_width()//2 
+		SCREEN_HEIGHT=turtle.getcanvas().winfo_height()//2
 	
 	move_balls()
 	check_collision()
